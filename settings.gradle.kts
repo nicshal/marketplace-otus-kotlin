@@ -1,4 +1,4 @@
-rootProject.name = "marketplace-otus-kotlin"
+rootProject.name = "tariff-management-otus-kotlin"
 
 pluginManagement {
     val kotlinVersion: String by settings
