@@ -1,3 +1,3 @@
 # Архитектурная диаграмма
 
-![Комопнентная архитектура](./marketplace-arch.drawio.svg)
+![Комопнентная архитектура](./tariff-management-arch.drawio.svg)

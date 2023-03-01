@@ -1,3 +1,3 @@
 # Схема интеграции
 
-![Схема интеграции](./marketplace-integration.drawio.svg)
+![Схема интеграции](./tariff-management-integration.drawio.svg)
