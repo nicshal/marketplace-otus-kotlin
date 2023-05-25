@@ -9,7 +9,7 @@ on:
     branches:
       - 'main'
       - 'master'
-      - 'v-*'
+      - 'm*'
   pull_request:
     types:
       - opened
@@ -18,7 +18,7 @@ on:
     branches:
       - 'main'
       - 'master'
-      - 'v-*'
+      - 'm*'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
