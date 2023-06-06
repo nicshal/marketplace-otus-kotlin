@@ -8,6 +8,7 @@ pluginManagement {
     val springDependencyManagementVersion: String by settings
     val pluginSpringVersion: String by settings
     val pluginJpa: String by settings
+    val bmuschkoVersion: String by settings
 
     plugins {
         kotlin("jvm") version kotlinVersion
@@ -21,6 +22,9 @@ pluginManagement {
         id("io.spring.dependency-management") version springDependencyManagementVersion apply false
         kotlin("plugin.spring") version pluginSpringVersion apply false
         kotlin("plugin.jpa") version pluginJpa apply false
+
+        id("com.bmuschko.docker-java-application") version bmuschkoVersion apply false
+        id("com.bmuschko.docker-remote-api") version bmuschkoVersion apply false
     }
 }
 
@@ -32,3 +36,5 @@ include("tariff-management-common")
 include("tariff-management-mappers")
 include("tariff-management-stubs")
 include("tariff-management-app-spring")
+include("tariff-management-app-kafka")
+include("tariff-management-biz")
